@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./recursos/css/style.css" />
+    <title>Pizzaria Patroni</title>
+</head>
+
+<body>
+    
+    <header class="container">
+        <div class="titulo">
+            <h1><p>Pizzaria Patroni o melhor da região!</p></h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="logomarca">
+            <img src="./recursos/image/logo_pizza.png" alt="Logo marca da empresa">
+        </div>
+
+        <div class="form">
+            <label class="lbtexto">Valor total da Conta:</label>
+            <input class="txtvalor" type="text" id="txtvalor" name="txtvalor" onchange="onValorChange()">
+
+            <label class="lbtexto">Incluir taxa de serviço</label>    
+            <select class="cbOption" id="cbOption">
+                <option value="sim">Sim</option>
+                <option value="nao">Não</option>
+            </select>
+
+            <label class="lbtexto">Quantidade de pagantes:</label>    
+            <select class="cbQtd" id="cbQtd">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+
+            <section>    
+                <input type="submit" id="btCalcular" value="Calcular">
+            </section>    
+        </div>
+    </main>
+    <div>
+        
+    </div>
+
+</body>
+<script src="./recursos/js/format_reais.js"></script>
+</html>

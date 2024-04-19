@@ -1,0 +1,94 @@
+/* Captura de Tela 2023-05-16 às 21.19 1 */
+@import url("https://fonts.googleapis.com/css2?family=Zeyada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+
+.titulo{
+    display: flex;
+    flex-wrap: wrap ;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    font-family: "Zeyada", cursive;
+    font-size: 22px;
+    font-style: italic;
+    padding: 5% auto;
+}
+
+.logomarca{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin:auto;
+    margin-top: 1%;
+    align-items: center;
+}
+
+.servico{
+    display: flex;
+    max-width: 381px;
+    margin:1%  auto; 
+    margin-top: 1% auto;
+    align-items: center;
+}
+
+.txtvalor{
+    width: 352px;
+    height: 24px;
+    text-align:right ;
+}
+
+.cbOption{
+    width: 352px;
+    height: 24px;
+    text-align:center ;
+}
+
+.cbQtd{
+    width: 352px;
+    height: 24px;
+    text-align:center ;
+}
+
+.lbtexto{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 16px;
+}
+section{
+    margin-top: 180px;
+}
+label{
+    margin-bottom: 2px;
+}
+
+input{
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid;
+}
+
+select{
+    margin-bottom:10px ;
+    border-radius: 6px;
+    border: 1px solid;
+}
+
+h1{
+    height: 150px;
+    width: 381px;
+  
+    text-align: center;
+    text-align-last: center; /*centralizar o texto*/
+    margin-top: 0%;
+    margin-bottom: 0%;
+    
+}
